@@ -20,15 +20,28 @@ using namespace std;
 //     return 0;
 // }
 // Print linearly from 1 to N.
+// void func(int i, int n){
+//     if(i > n)
+//     return;
+//     cout<< i <<" ";
+//     func(i+1,n);
+// }
+// int main(){
+//     int n;
+//     cin>> n;
+//     func(1,n);
+//     return 0;
+// }
+// print numbers from N to 1.
 void func(int i, int n){
-    if(i > n)
+    if(i<1)
     return;
     cout<< i <<" ";
-    func(i+1,n);
+    func(i-1,n);
 }
 int main(){
     int n;
     cin>> n;
-    func(1,n);
+    func(n,n);
     return 0;
 }
