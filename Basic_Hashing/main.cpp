@@ -13,7 +13,6 @@ int main(){
             hash [arr[i]]+=1;
         }
         
-        
 
         int q;
         cin>>q;
