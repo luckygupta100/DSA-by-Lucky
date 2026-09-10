@@ -45,16 +45,28 @@ using namespace std;
 //     func(n,n);
 //     return 0;
 // }
-void f(int n,int i)
+// void f(int n,int i)
 
-{
-if(n<i)
-    return;
+// {
+// if(n<i)
+//     return;
 
-cout << (n-i+1)<< endl ;
-f(n,i+1);}
+// cout << (n-i+1)<< endl ;
+// f(n,i+1);}
+// int main(){
+//     int n;
+//     cin >> n;
+//     f(n,1);
+// }
+void f (int i , int n){
+if(i>n)
+return ;
+f(i+1,n);
+cout<< i << endl;
+}
+
 int main(){
     int n;
-    cin >> n;
-    f(n,1);
+    cin>> n;
+    f(1,n);
 }
