@@ -20,7 +20,7 @@ int main(){
     for(int i=0;i<n;i++){
         cin>>a[i];
     }
-    vector<int> ans = twosum(a,target);
+    vector<int> ans = twosum(a, target);
 cout << "indices are: " << ans[0] << " " << ans[1];
 
 }
