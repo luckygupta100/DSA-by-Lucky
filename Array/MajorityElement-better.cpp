@@ -13,7 +13,7 @@ int majorityElement(vector<int>a){
     return -1;
 }
 int main() {
-    vector<int> nums = {2,3,3,3,1,3,2};
+    vector<int> nums = {2,2,3,3,3,1,3,2};
     cout << "majority element is: "<< majorityElement(nums);
     
     
