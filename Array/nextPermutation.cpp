@@ -25,7 +25,7 @@ void nextPermutation(vector<int>&nums){
 int main() {
     vector<int> nums = {1,3,4,5,2};
     nextPermutation(nums);
-    cout << "Sorted array: ";
+    cout << "Next Permutation: ";
     for (int i = 0; i < nums.size(); i++) {
         cout << nums[i] << " ";
     }
